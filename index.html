@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <ul class="nav-bar">
+        <li class="nav-lst"><a class="nav-lst-itm" href="#infos">Infos</a></li>
+        <li class="nav-lst"><a class="nav-lst-itm" href="#cv">CV</a></li>
+        <li class="nav-lst">
+          <a class="nav-lst-itm" href="#projets">Projets</a>
+        </li>
+        <li class="nav-lst">
+          <a class="nav-lst-itm" href="#passions">Passions</a>
+        </li>
+        <li class="nav-lst">
+          <a class="nav-lst-itm" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <article class="intro">
+          <img class="intro-img" src="imagesCV/me.jpg" alt="photo" />
+          <div class="intro-ttl">
+            <h1 class="intro-ttl-name">DUBREZ Alexandre</h1>
+            <h2 class="intro-ttl-name-sub">Développeur web et web mobile</h2>
+          </div>
+        </article>
+        <h3 id="infos" class="infos-ttl">informations</h3>
+        <article class="infos-content">
+          <ul class="infos-lst-q">
+            <li class="infos-q-itm">Nom</li>
+            <li class="infos-q-itm">Localisation</li>
+            <li class="infos-q-itm">Tel</li>
+            <li class="infos-q-itm">Mail</li>
+          </ul>
+          <ul class="infos-lst-a">
+            <li class="infos-a-itm infos-name">DUBREZ Alexandre</li>
+            <li class="infos-a-itm infos-loc">Caen, Normandie</li>
+            <li class="infos-a-itm infos-tel">06 67 34 95 56</li>
+            <li class="infos-a-itm infos-mail">
+              adubrez1409 <br />
+              @gmail.com
+            </li>
+          </ul>
+          <p class="infos-text">
+            Suite à une reconversion professionnelle, j’ai souhaité me diriger
+            vers un domaine qui me passionne. Actuellement en formation
+            Développeur Web & Web Mobile, je suis à la recherche d’un stage.
+          </p>
+        </article>
+      </section>
+      <section id="cv" class="comp">
+        <article class="comp-content">
+          <h3 class="comp-ttl">Compétences</h3>
+          <div class="comp-progressbar">
+            <div class="comp-progressbar-html">
+              <label for="comp-progressbar-html">HTML/CSS</label>
+              <progress
+                class="comp-progressbar-html-bar"
+                id="comp-progressbar-html-bar"
+                max="100"
+                value="75"
+              >
+                65%
+              </progress>
+            </div>
+            <div class="comp-progressbar-office">
+              <label for="comp-progressbar-office">Pack Office</label>
+              <!-- <div class="comp-progressbar-office-bar"> -->
+              <progress
+                class="comp-progressbar-office-bar"
+                id="comp-progressbar-office-bar"
+                max="100"
+                value="90"
+              >
+                90%
+              </progress>
+              <!-- </div> -->
+            </div>
+          </div>
+          <div class="comp-content-sub">
+            <ul class="comp-lst">
+              <li class="comp-itm">Sérieux</li>
+              <li class="comp-itm">Diplomate</li>
+              <li class="comp-itm">Autonome</li>
+              <li class="comp-itm">Méticuleux</li>
+            </ul>
+            <div class="comp-circle">
+              <div class="comp-wrap-circle">
+                <div class="comp-inner-circle"><strong>Toeic</strong>965</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <div class="exp">
+        <section class="exp-content">
+          <h3 class="exp-ttl">Experiences</h3>
+          <article class="exp-content-sub">
+            <ul class="exp-lst-job">
+              <li class="exp-itm-job">
+                <p class="exp-itm-job-date">12/2018-06/2022</p>
+                <p class="exp-itm-job-position">Game Master</p>
+                <p class="exp-itm-job-boss">Le Hangar à Enigmes</p>
+              </li>
+              <li class="exp-itm-job">
+                <p class="exp-itm-job-date">11/2018-07/2019</p>
+                <p class="exp-itm-job-position">Assistant d'éducation</p>
+                <p class="exp-itm-job-boss">Lycée André Maurois, Deauville</p>
+              </li>
+              <li class="exp-itm-job">
+                <p class="exp-itm-job-date">05/2015-05/2018</p>
+                <p class="exp-itm-job-position">Extra Restauration</p>
+                <p class="exp-itm-job-boss">Hotel Normandy, Deauville</p>
+              </li>
+              <li class="exp-itm-job">
+                <p class="exp-itm-job-date">12/2016-02/2016</p>
+                <p class="exp-itm-job-position">Stagiaire</p>
+                <p class="exp-itm-job-boss">
+                  L'agence des Voyages, Trouville s/m
+                </p>
+              </li>
+            </ul>
+            <ul class="exp-lst-dip">
+              <li class="exp-itm-dip">
+                <p class="exp-itm-job-date">09/2016-06/2018</p>
+                <p class="exp-itm-job-position">BTS Tourisme</p>
+                <p class="exp-itm-job-boss">AIFCC Lisieux</p>
+              </li>
+              <li class="exp-itm-dip">
+                <p class="exp-itm-job-date">09/2015-06/2016</p>
+                <p class="exp-itm-job-position">Licence 1 Informatique</p>
+                <p class="exp-itm-job-boss">Université de Caen</p>
+              </li>
+              <li class="exp-itm-dip">
+                <p class="exp-itm-job-date">09/2011-07/2014</p>
+                <p class="exp-itm-job-position">Baccalauréat ES</p>
+                <p class="exp-itm-job-boss">Lycée André Maurois, Deauville</p>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+      <div class="projects">
+        <section id="projets" class="projects-content">
+          <h3 class="projects-ttl">Projets</h3>
+          <div class="projects-carrousel">
+            <div class="container">
+              <img
+                class="projects-img"
+                src="imagesCV/natura.PNG"
+                alt="natura"
+              />
+              <svg
+                class="projects-img-btn projects-img-btn-natura"
+                fill="#000000"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 316.513 316.513"
+                xml:space="preserve"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M158.253,0C71,0,0.012,71.001,0.012,158.263c0,87.256,70.989,158.25,158.241,158.25 c87.259,0,158.248-70.994,158.248-158.25C316.501,71.001,245.518,0,158.253,0z M230.891,177.982h-57.748v52.914 c0,7.428-4.864,13.438-12.301,13.438c-7.422,0-12.298-6.017-12.298-13.438v-52.914H85.634c-7.44,0-13.454-4.864-13.454-12.298 s6.014-12.301,13.454-12.301h62.909V85.616c0-7.434,4.876-13.453,12.298-13.453c7.437,0,12.301,6.02,12.301,13.453v67.768h57.748 c7.439,0,13.456,4.867,13.456,12.301S238.33,177.982,230.891,177.982z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <div class="text-overlay">
+                <p class="overlay-text">
+                  Création d’un escape game à l’occasion du salon Natura à
+                  Trouville sur mer
+                </p>
+              </div>
+            </div>
+            <div class="container">
+              <img
+                class="projects-img"
+                src="imagesCV/éloquence.PNG"
+                alt="concours"
+              />
+              <svg
+                class="projects-img-btn projects-img-btn-contest"
+                fill="#000000"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 316.513 316.513"
+                xml:space="preserve"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M158.253,0C71,0,0.012,71.001,0.012,158.263c0,87.256,70.989,158.25,158.241,158.25 c87.259,0,158.248-70.994,158.248-158.25C316.501,71.001,245.518,0,158.253,0z M230.891,177.982h-57.748v52.914 c0,7.428-4.864,13.438-12.301,13.438c-7.422,0-12.298-6.017-12.298-13.438v-52.914H85.634c-7.44,0-13.454-4.864-13.454-12.298 s6.014-12.301,13.454-12.301h62.909V85.616c0-7.434,4.876-13.453,12.298-13.453c7.437,0,12.301,6.02,12.301,13.453v67.768h57.748 c7.439,0,13.456,4.867,13.456,12.301S238.33,177.982,230.891,177.982z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <div class="text-overlay">
+                <p class="overlay-text">
+                  Organisation du concours d’éloquence du lycée André Maurois de
+                  Deauville
+                </p>
+              </div>
+            </div>
+            <div class="container">
+              <img class="projects-img" src="imagesCV/bal.jpg" alt="bal" />
+              <div class="text-overlay">
+                <p class="overlay-text">
+                  Organisation du bal de fin d’année du lycée André Maurois de
+                  Deauville
+                </p>
+              </div>
+            </div>
+            <div class="container">
+              <img
+                class="projects-img"
+                src="imagesCV/telethon.jpg"
+                alt="telethon"
+              />
+              <svg
+                class="projects-img-btn projects-img-btn-telethon"
+                fill="#000000"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 316.513 316.513"
+                xml:space="preserve"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M158.253,0C71,0,0.012,71.001,0.012,158.263c0,87.256,70.989,158.25,158.241,158.25 c87.259,0,158.248-70.994,158.248-158.25C316.501,71.001,245.518,0,158.253,0z M230.891,177.982h-57.748v52.914 c0,7.428-4.864,13.438-12.301,13.438c-7.422,0-12.298-6.017-12.298-13.438v-52.914H85.634c-7.44,0-13.454-4.864-13.454-12.298 s6.014-12.301,13.454-12.301h62.909V85.616c0-7.434,4.876-13.453,12.298-13.453c7.437,0,12.301,6.02,12.301,13.453v67.768h57.748 c7.439,0,13.456,4.867,13.456,12.301S238.33,177.982,230.891,177.982z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <div class="text-overlay">
+                <p class="overlay-text">
+                  Organisation d’un événement pour le Téléthon au lycée André
+                  Maurois de Deauville
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="passions">
+        <section id="passions" class="passions-content">
+          <h3 class="passions-ttl">Passions</h3>
+          <article class="passions-cinema">
+            <img
+              class="passions-cinema-img passions-img"
+              src="imagesCV/FMJ-desktop.jpg"
+              alt="kubrick"
+            />
+            <div class="passions-cinema-text">
+              <h4 class="passions-cinema-ttl">Cinéma</h4>
+              <p class="passions-cinema-text-sub">
+                Passionné depuis toujours par le Cinéma, fasciné par la
+                réalisation du film, l’écriture du scénario et la photographie.
+              </p>
+            </div>
+          </article>
+          <article class="passions-voyages">
+            <div class="passions-voyages-text">
+              <h4 class="passions-voyages-ttl">Voyages</h4>
+              <p class="passions-voyages-text-sub">
+                Les différents voyages que j’ai eu la chance de faire m’ont
+                permis de découvrir différentes cultures et surtout d’ouvrir mon
+                esprit.
+              </p>
+            </div>
+            <img
+              class="passions-voyages-img passions-img"
+              src="imagesCV/japon.jpg"
+              alt="japon"
+            />
+          </article>
+          <article class="passions-music">
+            <img
+              class="passions-music-img passions-img"
+              src="imagesCV/concert.jpg"
+              alt="concert"
+            />
+            <div class="passions-music-text">
+              <h4 class="passions-music-ttl">Musique</h4>
+              <p class="passions-music-text-sub">
+                La musique fait partie de mon quotidien et me permet de rester
+                concentré en plus de procurer du plaisir.
+              </p>
+            </div>
+          </article>
+        </section>
+      </div>
+      <footer id="contacts" class="footer">
+        <h3 class="footer-ttl">Contacts</h3>
+        <div class="footer-lst">
+          <ul>
+            <li>Caen, Normandie</li>
+            <li><a href="tel:+33667349556"> 06 67 34 95 56</a></li>
+            <li>
+              <a href="mailto:" adubrez1409@gmail.com subject="subject-text"
+                >adubrez1409@gmail.com</a
+              >
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/alexandre-dubrez/?originalSubdomain=fr"
+                target="_blank"
+                ><img
+                  class="footer-img"
+                  src="imagesCV/lkdlogo.png"
+                  alt="linkedin"
+              /></a>
+            </li>
+            <li>
+              <img
+                class="footer-img"
+                src="imagesCV/fblogo.png"
+                alt="facebook"
+              />
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
